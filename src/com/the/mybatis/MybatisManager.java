@@ -16,13 +16,18 @@ public class MybatisManager {
 	}
 	
 	/*
-	 * static { System.out.println("static 영역에서 초기화"); String resource =
-	 * "/com/the/mybatis/mybatis-config.xml"; InputStream inputStream = null;
+	 * static { System.out.println("static 영역에서 초기화");
+	 * String resource = "/com/the/mybatis/mybatis-config.xml"; 
 	 * 
-	 * try { inputStream = Resources.getResourceAsStream(resource); } catch
-	 * (IOException e) { e.printStackTrace(); }
+	 * InputStream inputStream = null;
 	 * 
-	 * sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream); }
+	 * try { 
+	 *  inputStream = Resources.getResourceAsStream(resource); 
+	 * } catch (IOException e) { 
+	 *   e.printStackTrace(); }
+	 * 
+	 * sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream); 
+	 * }
 	 */
 	
 	private MybatisManager() {
